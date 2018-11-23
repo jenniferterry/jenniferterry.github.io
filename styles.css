@@ -12,6 +12,7 @@
 /*Slideshow styles*/
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -141,10 +142,18 @@ ul {
     padding: 20px;
 }
 
+.container-text {
+  background-color: green;
+  padding: 20px;
+  align: center;
+  margin: 16px;
+  text-align: center;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
    float: left;
-    width: 33.33%;
+  width: 33.33%;
 }
 
 /* Clear floats after thecolumns */
@@ -190,7 +199,7 @@ ul {
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover.dropdown-content {
     display: block;
 }
 

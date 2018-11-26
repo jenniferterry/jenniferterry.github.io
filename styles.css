@@ -126,6 +126,12 @@ h3 {
   font-size: 15px;
   text-align: center;
 }
+h4 {
+  color: Black;
+  font-size: 15px;
+  text-align: left;
+  font-weight: bold;
+}
 p {
   color: black;
   font-family: Verdana;
@@ -146,15 +152,15 @@ ul {
 
 .container-text {
   background-color: green;
+  font-weight:bold;
   padding: 20px;
-  align: center;
   margin: 16px;
   text-align: center;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-   float: left;
+  float: left;
   width: 33.33%;
 }
 
@@ -178,6 +184,7 @@ ul {
     text-align: center;
     background: lightblue;
     margin-top: 20px;
+    font-size: 15px; 
 }
 
 /* Add a card effect for articles */

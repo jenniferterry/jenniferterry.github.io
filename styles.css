@@ -145,7 +145,6 @@ ul {
 
 /* Image [To be added] */
 .img {
-    background-color: #aaa;
     width: 100%;
     padding: 20px;
 }
@@ -184,7 +183,7 @@ ul {
     text-align: center;
     background: lightblue;
     margin-top: 20px;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 /* Add a card effect for articles */
@@ -217,6 +216,7 @@ ul {
     text-align: center;
 }
 
+/*header image*/
 .hero__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,4 +243,24 @@ ul {
   margin: 0;
   position: relative;
   z-index: 10;
+}
+
+/* Two columns */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

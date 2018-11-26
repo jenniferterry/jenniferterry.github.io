@@ -3,9 +3,11 @@
   background-color: black;
   color: white;
 }
-
-.current {
-  background-color: blue;
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li.current>a {
+  color: #fff;
 }
 /*End Navbar styles*/
 
@@ -206,3 +208,32 @@ ul {
 .desc {
     padding: 15px;
     text-align: center;
+}
+
+.hero__wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 51px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__wrapper::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+  content: " ";
+  display: block;
+}
+
+.hero__wrapper h1 {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  z-index: 10;
+}

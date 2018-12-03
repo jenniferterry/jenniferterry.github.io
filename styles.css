@@ -114,39 +114,47 @@ h1 {
   color: black;
   text-align: center;
   font-family: 'Sedgwick Ave', cursive;
+  margin: 15px;
 }
 h2 {
   color: blue;
   font-size: 30px;
   font-family: Verdana;
   text-align: center;
+  margin: 15px;
 }
 h3 {
   color: teal;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
+  margin: 15px;
 }
 h4 {
   color: Black;
   font-size: 15px;
   text-align: left;
   font-weight: bold;
+  margin: 15px;
 }
 p {
   color: black;
   font-family: Verdana;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
+  margin: 15px;
 }
 ul {
   color: black;
   font-family: Verdana;
+  margin: 15px;
 }
 
-/* Image [To be added] */
+/* Images */
 .img {
-    width: 100%;
+    width: 75%;
     padding: 20px;
+    margin: 20px;
+    align: center;
 }
 
 .container-text {

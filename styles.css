@@ -189,7 +189,7 @@ ul {
 .footer {
     padding: 20px;
     text-align: center;
-    background: lightblue;
+    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);
     margin-top: 20px;
     font-size: 15px;
 }
@@ -295,4 +295,27 @@ ul {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+.intro-text h3,
+.section,
+.section h4 {
+  text-align: center;
+}
+
+.section {
+  background: #f6f6f6;
+  padding: 16px;
+  min-height: 555px;
+}
+
+.section .img {
+  width: 100%;
+}
+.section img {
+  max-width: 100%;
 }

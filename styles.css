@@ -6,7 +6,7 @@
 .navbar {
   margin-bottom: 0;
 }
-.navbar-inverse .navbar-nav>li.current>a {
+.navbar-inverse .navbar-nav>li.current>span {
   color: #fff;
 }
 /*End Navbar styles*/

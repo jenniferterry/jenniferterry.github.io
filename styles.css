@@ -8,6 +8,10 @@
 }
 .navbar-inverse .navbar-nav>li.current>span {
   color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  display: inline-block;
 }
 /*End Navbar styles*/
 
